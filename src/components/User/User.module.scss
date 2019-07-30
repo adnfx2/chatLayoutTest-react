@@ -1,0 +1,32 @@
+.user {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+
+  &__pic {
+    width: 50px;
+    border-radius: 50%;
+    font-size: .7rem;
+  }
+
+  &__details {
+    display: none;
+    @media (min-width: 576px) {
+      display: block;
+      padding: 0 0 0 1rem;
+    }
+  }
+
+  &__name {
+    @media (min-width: 576px) {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1rem;
+    }
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+}

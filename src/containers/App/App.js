@@ -1,8 +1,15 @@
 import React from "react";
-import { app } from "./App.module.scss";
+import styles from "./App.module.scss";
+import Main from "../Main/Main";
+import Sidebar from "../Sidebar/Sidebar";
 
 function App() {
-  return <div className={app}>Hello</div>;
+  return (
+    <div className={styles.app}>
+      <Sidebar />
+      <Main />
+    </div>
+  );
 }
 
 export default App;
