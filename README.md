@@ -1,6 +1,6 @@
 This sample project was made to demonstrate some basic setup of redux in conjunction with react-redux. No middlewares were used for this project. 
 
-I might updagrade this project in a different repository soon...
+I might upgrade this project in a different repository soon...
 
 ## Available Scripts
 
